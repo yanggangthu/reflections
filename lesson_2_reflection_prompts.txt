@@ -1,7 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
+It creates .git subdirectory, which contains all the necessary metadata. 
+It gives us more flexibility when we want to commit. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+not all the files in the working directory will be in the staging area.
+commits have to come from files in the staging area 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -16,3 +20,4 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
