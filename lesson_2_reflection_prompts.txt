@@ -25,4 +25,5 @@ lines got added in either new branch will be added during merging
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-
+git pros: time-saving, based on algorithm, can detect all changes
+cons: may introduce bug to the program
