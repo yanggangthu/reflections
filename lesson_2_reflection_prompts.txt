@@ -9,14 +9,19 @@ commits have to come from files in the staging area
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+use git diff --staged to check whether there is only one logical change before commit
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+when you want to do some experiments on the file and want to keep the original one
+or work on project by different people at the same time 
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+compare the two branches with their parent commit where the two branches split
+lines got deleted in either new branch will be deleted during merging 
+lines got added in either new branch will be added during merging  
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
